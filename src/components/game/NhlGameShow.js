@@ -74,10 +74,11 @@ const NhlGameShow = (props) => {
                                     <Card.Text>
                                         {nhlGames.map((result) => (
                                             <div>
-                                            <small><span style={boldText}>Summary:</span> {result.summary}</small>
-                                            <small><span style={boldText}>Score:</span> {result.schedule.date}</small>
-                                            <small><span style={boldText}>Odds:</span> {result.odds[0].spread.current.awayOdds}</small>
-                                        </div>
+                                                <small><span style={boldText}>Summary:</span> {result.summary}</small>
+                                                <small><span style={boldText}>Scheduled Date:</span> {result.schedule.date}</small>
+                                                <small><span style={boldText}>Odds:</span> {result.odds[0].spread.current.awayOdds}</small>
+                                                <small><span style={boldText}>Home Odds:</span> {result.odds[0].spread.current.homeOdds}</small>
+                                            </div>
                                         ))}
                                     </Card.Text>
                                 </Card.Body>

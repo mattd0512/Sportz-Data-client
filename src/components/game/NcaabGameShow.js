@@ -76,7 +76,7 @@ const NcaabGameShow = (props) => {
                                         {ncaabGames.map((result) => (
                                             <div>
                                                 <small><span style={boldText}>Summary:</span> {result.summary}</small>
-                                                <small><span style={boldText}>Score:</span> {result.schedule.date}</small>
+                                                <small><span style={boldText}>Scheduled Date:</span> {result.schedule.date}</small>
                                                 <small><span style={boldText}>status:</span> {result.status}</small>
                                             </div>
                                         ))}
