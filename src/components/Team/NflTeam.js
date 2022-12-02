@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row"
 import Spinner from "react-bootstrap/Spinner"
 import { nflTeam } from "../../api/team"
 
+
 const backgroundCSS = {
     backgroundColor: 'rgb(212, 212, 212)',
     // backgroundColor: 'rgb(120, 219, 111)',
@@ -24,7 +25,7 @@ const cardCSS = {
 }
 
 const col1Style = {
-    paddingLeft: '5rem'
+    paddingLeft: '15rem'
 }
 
 const cardHeader = {

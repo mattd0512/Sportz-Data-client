@@ -13,4 +13,6 @@ code {
 }
 
 
-
+.nav-dropdown > li {
+  display:block;
+}

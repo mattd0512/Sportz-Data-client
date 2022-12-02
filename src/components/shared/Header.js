@@ -15,11 +15,11 @@ const navStyle = {
 	justifyContent: 'flex-end',
 	alignItems: 'center',
 	width: '500px',
-	color: 'white'
+	color: 'white',
 }
 const authenticatedOptions = (
 	<>
-		<NavDropdown title="Leagues" id="basic-nav-dropdown">
+		<NavDropdown title="Leagues" id="basic-nav-dropdown" >
 			<Link to="nfl">NFL</Link>
 			<Link to="nba">NBA</Link>
 			<Link to="mlb">MLB</Link>
