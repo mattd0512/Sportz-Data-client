@@ -1,3 +1,5 @@
+//you NEED to be putting comments in your code. there aren't any in your repo, and if you wanted to come back to this later or show another developer, it'll be hard to follow and find what you need. comment your code!
+// make sure you're getting rid of any unused code
 // import React, { Component, Fragment } from 'react'
 import React, { useState, Fragment } from 'react'
 import { Route, Routes } from 'react-router-dom'

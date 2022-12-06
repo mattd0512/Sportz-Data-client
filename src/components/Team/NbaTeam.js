@@ -87,7 +87,7 @@ const NbaTeam = (props) => {
             </>
         )
     }
-
+//great job with your indentation!
     return (
         <>
             <div style={backgroundCSS}>
