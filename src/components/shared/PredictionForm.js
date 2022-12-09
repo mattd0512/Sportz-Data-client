@@ -5,6 +5,7 @@ const PredictionForm = (props) => {
     const {prediction, handleChange, handleSubmit, heading} = props
 
     return (
+        //make sure you're being consistent throughout your code, even when coding with someone else. you used single quotes in other spots but double quotes in some. consistency is important!
         <Container className="justify-content-center">
             <h3>{ heading }</h3>
             <Form onSubmit={ handleSubmit }>

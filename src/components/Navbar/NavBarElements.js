@@ -1,3 +1,4 @@
+//delete unused code
 import { findByLabelText } from '@testing-library/react';
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
